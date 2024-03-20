@@ -9,7 +9,7 @@ int main(){
     int *v = new int[n];
 
     for(int i=0;i<n;i++){
-        cout<<endl<<i+1<<"บ valor: ";
+        cout<<endl<<i+1<<"ยบ valor: ";
         cin>>v[i];
     }
 
