@@ -39,6 +39,6 @@ int main() {
         }
     }
     
-    delete [] v;
-    delete [] counter;
+    delete[] v;
+    delete[] counter;
 }
