@@ -38,4 +38,7 @@ int main() {
             cout << endl << "Moda: " << v[i];
         }
     }
+    
+    delete [] v;
+    delete [] counter;
 }
