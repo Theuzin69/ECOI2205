@@ -18,6 +18,9 @@ public class Labrador extends Dog
         super(name);
         this.color = color;
     }
+    public String getColor(){
+        return color;
+    }
     // ------------------------------------------------------------
     // Big bark -- overrides speak method in Dog
     // ------------------------------------------------------------
