@@ -5,7 +5,7 @@ Why does the constructor of a subclass class have to call the constructor of its
 parent class?
 m
 4
-Which of the following is not a legal identifier in Java?Chapter 8: Inheritance 159
+Which of the following is not a legal identifier in Java?
 guess2
 2ndGuess
 _guess2_
