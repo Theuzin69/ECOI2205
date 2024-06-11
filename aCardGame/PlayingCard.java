@@ -2,8 +2,8 @@ package aCardGame;
 
 public class PlayingCard {
 	private boolean faceUp;
-	private int r;
-	private Suits s;
+	private int rank;
+	private Suits suit;
 	
 	enum Suits {
 		SPADE, 
@@ -12,9 +12,9 @@ public class PlayingCard {
 		HEART
 	}
 	
-	public PlayingCard(Suits sv, int rv) {
-		s = sv;
-		r = rv;
+	public PlayingCard(Suits suit, int rank) {
+		this.suit = suit;
+		this.rank = rank;
 		faceUp = false;
 	}
 	
@@ -26,5 +26,17 @@ public class PlayingCard {
 		faceUp = !faceUp;
 	}
 	
-	public
+	public int getRank() {
+		return rank;
+	}
+	
+	public Suits suit() {
+		return suit;
+	}
+	
+	public Color color() {
+		if(this.suit == Suits.HEART || this.suit == Suits.DIAMOND)
+			return Color.red;
+		return Color.black;
+	}
 }
