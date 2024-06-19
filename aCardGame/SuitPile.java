@@ -1,3 +1,5 @@
+package Piles;
+
 public class SuitPile extends CardPile {
 
     public SuitPile(int x, int y) {
